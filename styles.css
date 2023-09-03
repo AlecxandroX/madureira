@@ -1,0 +1,76 @@
+/* Estilo para a logomarca */
+.logo {
+    max-height: 50px; /* Ajuste a altura conforme necessário */
+    margin-top: 5px; /* Ajuste o espaçamento superior conforme necessário */
+}
+
+/* Estilo para a seção de início (jumbotron) */
+.jumbotron {
+    background-color: rgb(218, 211, 206);
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+}
+
+/* Estilo para a seção "Sobre Nós" */
+#sobre {
+    background-color: #f8f9fa; /* Cor de fundo */
+    padding: 40px 0;
+}
+
+#sobre h2 {
+    font-size: 28px;
+}
+
+/* Estilo para a seção "Serviços" */
+#servicos {
+    padding: 40px 0;
+}
+
+#servicos h2 {
+    font-size: 28px;
+}
+
+.card {
+    border: none;
+}
+
+/* Estilo para a seção de contato */
+#contato {
+    background-color: #f8f9fa; /* Cor de fundo */
+    padding: 40px 0;
+}
+
+#contato h2 {
+    font-size: 28px;
+}
+
+/* Estilo para o formulário de contato */
+.form-group label {
+    font-weight: bold;
+}
+
+/* Estilo para o botão de envio do formulário */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilo para as imagens dos cultos */
+.cultos-img {
+    height: 200px; /* Ajuste a altura conforme necessário */
+    object-fit: cover;
+}
+#contato {
+    background-color: rgb(218, 211, 206);
+}

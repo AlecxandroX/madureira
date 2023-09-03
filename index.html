@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madureira Caçador</title>
+    <!-- Adicione os links para o Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Adicione seu arquivo de estilo CSS personalizado -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Substitua o texto do nome da igreja pela logomarca -->
+            <a class="navbar-brand" href="#"><img class="logo" src="./Logo.jpg" alt="Logomarca da Igreja"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Seção Início -->
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1>Bem-vindo à Assembleia de Deus Ministerio Madureira</h1>
+            <p>Uma comunidade de fé e amor</p>
+            <a href="#sobre" class="btn btn-primary">Saiba mais</a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Sobre Nós</h2>
+                    <p>Bem-vindo à Igreja Assembleia de Deus  Madureira - Uma Comunidade Familiar e Acolhedora em Caçador, SC
+
+                        Somos uma igreja que valoriza a unidade como uma família espiritual. Nosso lema é "Acolhemos com Braços Abertos", e estamos comprometidos em oferecer calor, amor e aceitação a todos que nos visitam. Além de cuidar de nossa comunidade, também nos envolvemos em ações de serviço à cidade e ao mundo. Oferecemos oportunidades para o crescimento espiritual e convidamos todos a se juntarem a nós nesta jornada de fé.
+                        
+                        Na Igreja Assembleia de Deus Ministerio Madureira, você é parte da família.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./igreja.jpg" alt="Imagem Sobre Nós" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Cultos -->
+    <section id="servicos" class="bg-light py-5">
+        <div class="container">
+            <h2>Cultos</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="./Cultos de quarta.jpg" alt="Serviço 1" class="card-img-top cultos-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Cultos de quarta</h5>
+                            <p class="card-text">Cultos todas as quartas às 19:30.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="./Cultos de domingo.jpg" alt="Serviço 2" class="card-img-top cultos-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Cultos de Domingo</h5>
+                            <p class="card-text">Todos os Domingos, cultos da família às 19:30.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Seção Contato -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Seu Nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Seu Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5" placeholder="Sua Mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h4>Redes Sociais</h4>
+                    <p>Siga-nos nas redes sociais para ficar atualizado:</p>
+                    <!-- Botão para o WhatsApp -->
+                    <a href="https://api.whatsapp.com/send?phone=554999326870" class="btn btn-success btn-social" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <!-- Botão para o Instagram -->
+                    <a href="https://www.instagram.com/madureiracacador" class="btn btn-primary btn-social" target="_blank">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Adicione os links para o Bootstrap JS e jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
